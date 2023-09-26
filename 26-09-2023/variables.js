@@ -20,7 +20,7 @@
     const c = 3;
     c++;
     /* c is constant variable,
-    so we can not modify its value
+    so we can't modify its value
     */
     document.writeln("within scope c = ", c);
 }
