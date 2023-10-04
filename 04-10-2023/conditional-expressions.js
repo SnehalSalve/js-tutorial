@@ -22,3 +22,45 @@ else if(a>9 && a<18){
 //ternary operator
 
 console.log(a>18? "Drive" : "Cant Drive");
+
+//switch case 
+/*
+    const expr = 'O';
+switch (expr) {
+  case 'Oranges':
+    console.log('Oranges are $0.59 a pound.');
+    break;
+  case 'Mangoes':
+    console.log('Oranges are $0.59 a pound.');
+    break;
+  case 'Papayas':
+    console.log('Mangoes and papayas are $2.79 a pound.');
+    // Expected output: "Mangoes and papayas are $2.79 a pound."
+    break;
+  default:
+    console.log(`Sorry, we are out of ${expr}.`);
+}
+*/
+
+const choice="sub";
+let n1=2,n2=3;
+
+switch(choice){
+    case 'add':
+        console.log("adiition = ",n1+n2);
+        break;
+
+    case 'sub':
+        console.log("substraction = ",n1-n2);
+        break;
+
+    case 'mul':
+        console.log("multiplication = ",n1*n2);
+        break;
+
+    case 'div':
+        console.log("division = ",n1/n2);
+        break;
+
+
+}
