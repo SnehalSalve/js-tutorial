@@ -44,3 +44,8 @@ console.log(words[3]);
 const str2 = "I like to play PUBG";
 console.log(str2.charAt(0));
 console.log(str2.charAt(5));
+
+// Accept a string from user
+
+let userName = prompt("What's your name?");
+alert(`Your name is ${userName}`);
