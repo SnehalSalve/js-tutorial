@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+
+    <script>
+        function demo() {
+            var firstname = document.getElementById("txt1").value;
+            var lastname = document.getElementById("txt2").value;
+            var sclass = document.getElementById("txt3").value;
+            var city = document.getElementById("txt4").value;
+            var birthdate = document.getElementById("txt5"). value;
+            var emailid = document.getElementById("txt6"). value;
+            var password = document.getElementById("txt7").value;
+
+
+            document.write("first name is : " + firstname + "<br>");
+
+            document.write("last name is : " + lastname + "<br>");
+
+            document.write("class is : " + sclass + "<br>");
+
+            document.write("city  is : " + city + "<br>");
+
+            document.write("dbo is : " + birthdate + "<br>");
+
+            document.write("email is : " + emailid + "<br>");
+
+            document.write("password is : " + password + "<br>");
+
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <label for="">First name</label>
+            <input type="text" id="txt1">
+        </div>
+
+        <div>
+            <label for="">Last name</label>
+            <input type="text" id="txt2">
+        </div>
+
+        <div>
+            <label for="">Class</label>
+            <input type="text" id="txt3">
+        </div>
+
+        <div>
+            <label for="">City</label>
+            <input type="text" id="txt4">
+        </div>
+
+        <div>
+            <label for="">Date of birth</label>
+            <input type="date" id="txt5">
+        </div>
+
+        <div>
+            <label for="">Email id</label>
+            <input type="email" id="txt6">
+        </div>
+
+        <div>
+            <label for="">password</label>
+            <input type="password" id="txt7">
+        </div>
+
+
+        <button onclick="demo()">submit</button>
+    </div>
+</body>
+
+</html>
